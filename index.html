@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Art Connect</title>
+  <meta property="og:title" content="Art Connect">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Art Connect">
+  <meta property="og:image" content="/images/logo.svg">
+  <meta name="generator" content="Webflow">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/nelucebotari-2.webflow.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Inconsolata:400,400italic,700,700italic"]
+      }
+    });
+  </script>
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="/images/logo.svg">
+  <link rel="apple-touch-icon" href="/images/logo.svg">
+  <style>
+    ::-moz-selection { /* Code for Firefox */
+        background: rgba(0,0,0,0.10);
+    }
+    ::selection {
+        background: rgba(0,0,0,0.10);
+    }
+  </style>
+  <style>
+    .project-about {
+        vertical-align: middle;
+  </style>
+</head>
+<body>
+    
+  <div class="w-section nav-bar">
+    <div class="w-row nav-row">
+      <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4 nav-link-about"><a href="#about" class="nav-link">ABOUT</a>
+      </div>
+      <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4 nav-link-work"><a href="#work" data-ix="nav-link-hover" class="nav-link">WORK</a>
+      </div>
+      <div data-ix="nav-link-scroll" class="w-col w-col-4 w-col-small-4 w-col-tiny-4 nav-link-contact"><a href="#contact" data-ix="nav-link-hover" class="nav-link">contact</a>
+      </div>
+    </div>
+  </div>
+  <div id="hero" data-ix="arrow" class="w-section start-herosection">
+    <div class="start-hero-div"><img src="images/bg-stroke-1.svg" data-ix="bg-stroke-1" class="bg-stroke-1"><img src="images/bg-stroke-1.svg" data-ix="bg-stroke-3" class="bg-stroke-8"><img src="images/bg-stroke-1.svg" data-ix="bg-stroke-4" class="bg-stroke-9"><img src="images/bg-stroke-2.svg" data-ix="bg-stroke-2" class="bg-stroke-2"><img src="images/bg-stroke-2.svg" data-ix="bg-stroke-5" class="bg-stroke-10"><img src="images/bg-stroke-4.svg" data-ix="bg-stroke-3" class="bg-stroke-3"><img src="images/bg-stroke-4.svg" data-ix="bg-stroke-4" class="bg-stroke-4"><img src="images/bg-stroke-4.svg" data-ix="bg-stroke-5" class="bg-stroke-5"><img src="images/bg-stroke-4.svg" data-ix="bg-stroke-1" class="bg-stroke-6"><img src="images/bg-stroke-4.svg" data-ix="bg-stroke-2" class="bg-stroke-7"><img src="images/bg-stroke-5.svg" data-ix="bg-stroke-1" class="bg-stroke-11"><img src="images/bg-stroke-5.svg" data-ix="bg-stroke-2" class="bg-stroke-12"><img src="images/bg-stroke-5.svg" data-ix="bg-stroke-5" class="bg-stroke-15"><img src="images/bg-stroke-3.svg" data-ix="bg-stroke-3" class="bg-stroke-13"><img src="images/bg-stroke-3.svg" data-ix="bg-stroke-4" class="bg-stroke-14"><img src="images/bg-stroke-3.svg" data-ix="bg-stroke-1" class="bg-stroke-16">
+    </div><img src="images/logo.svg"  class="logo">
+    <div class="w-row w-hidden-medium w-hidden-small w-hidden-tiny nav-row">
+      <div data-ix="nav-container" class="w-col w-col-4 nav-container">
+        <div class="bg"></div><img src="images/nav-image-1.svg" class="nav-image">
+        <div class="nav-link-container"><a href="#about" class="nav-link">about</a>
+        </div>
+       
+        <a href="#about" data-ix="button" class="w-inline-block nav-button">
+          <div class="button-shadow"></div>
+          <div class="button-text">READ</div>
+        </a>
+      </div>
+      <div data-ix="nav-container" class="w-col w-col-4 nav-container">
+        <div class="bg"></div><img src="images/nav-image-2.svg" class="nav-image">
+        <div class="nav-link-container"><a href="#work" class="nav-link">work</a>
+        </div>
+        
+        <a href="#work" data-ix="button" class="w-inline-block nav-button">
+          <div class="button-shadow"></div>
+          <div class="button-text">EXPLORE</div>
+        </a>
+      </div>
+      <div data-ix="nav-container" class="w-col w-col-4 nav-container">
+        <div class="bg"></div><img src="images/nav-image-3.svg" class="nav-image">
+        <div class="nav-link-container"><a href="#contact" class="nav-link">contact</a>
+        </div>
+      
+        <a href="#contact" data-ix="button" class="w-inline-block nav-button">
+          <div class="button-shadow"></div>
+          <div class="button-text">SAY HELLO!</div>
+        </a>
+      </div>
+    </div>
+    <div class="w-row w-hidden-main nav-mobile">
+      <div data-ix="nav-container" class="w-col w-col-4 w-col-small-4 w-col-tiny-4 nav-container">
+        <div class="nav-link-container"><a href="#about" class="nav-link">about</a>
+        </div>
+      </div>
+      <div data-ix="nav-container" class="w-col w-col-4 w-col-small-4 w-col-tiny-4 nav-container">
+        <div class="nav-link-container"><a href="#work" class="nav-link">work</a>
+        </div>
+      </div>
+      <div data-ix="nav-container" class="w-col w-col-4 w-col-small-4 w-col-tiny-4 nav-container">
+        <div class="nav-link-container"><a href="#contact" class="nav-link">contact</a>
+        </div>
+      </div>
+    </div>
+    <a href="#hero" class="w-inline-block arrow"><img src="images/arrow.svg" class="arrow-icon">
+    </a>
+  </div>
+    
+    <div>
+        <br> <br>
+        <center> <img src="lander2.jpeg" width="90%" height="500px"></center>
+    
+  
+    </div>
+  <div data-ix="move-nav" class="w-section main-content">
+      <br>
+    <div id="about" data-ix="move-nav-about" class="about-section">
+      <div class="short-discription-container">
+        <div class="short-discription-bg"></div>
+        <div  style="font-size: 24px"><p>Artconnect aims at bridging the gap between the artisans and the corporate world and
+looks forward to a holistic development. The artisans post their queries, about their
+difficulties and if they need any assistance with anything. The organisations/companies can
+contact the artisans through the website and provide them with the required help. The
+companies/organisations also reach out to the artisans through the website, for the latter's
+help in promoting their campaign, helping with the packaging and also spreading a word, if
+            need be. This website provides a source of relief for the artisans.</p>
+            <!--<br> Currently</div><a href="#contact" class="short-discription link">&nbsp;available&nbsp;</a>
+        <div class="short-discription">for freelance work.</div>-->
+      </div>
+      <div class="w-row about-p-row">
+   <center>     <div class="w-col w-col-12 about-p-column experience">
+          <h4 class="about-h">Our prominent member organisations :</h4>
+            
+          <p class="about-p">Craftizen Handicrafts</p>
+            <br>
+             <p class="about-p">Asha Handicrafts association</p>
+            <br>
+             <p class="about-p">Habba</p>
+            <br>
+             <p class="about-p">Earthy Goods Foundation</p>
+            <br>
+             <p class="about-p">Brahmaputra Fables</p>
+            <br>
+             <p class="about-p">National Institute of Fashion Technology
+</p>
+            <br>
+             <p class="about-p">NICE (Network of Indian Cultural Enterprises)
+</p>
+            <br>
+             <p class="about-p">Vyasa Health care</p>
+            <br>
+            <p class="about-p">Chandipur Habichak Nankarchak Patuya Samiti</p>
+            
+       </div></center>
+        
+          </div>
+       
+      </div>
+    </div>
+    
+    <div id="work" data-ix="move-nav-work"  class="work-section">
+        
+      <h1>Need something done? </h1>
+        <br>
+        <div class="w-col w-col-4">
+            <img src="https://www.f-cdn.com/assets/main/en/assets/home/need-work-done/post-a-job-v3.svg" width="50px" height="50px"><p class="about-p"><b>Post a Job</b></p>
+            <br>
+            <p style="font-size: 20px">It’s free and easy to post a job. Simply fill in a title, description and budget
+and competitive bids come within minutes.</p>
+            
+            
+        </div>
+          <div class="w-col w-col-4">
+              <img src="https://www.f-cdn.com/assets/main/en/assets/illustrations/work.svg" width="50px" height="50px"><p class="about-p"><b>Post a service</b></p>
+            <br>
+            <p style="font-size: 20px">It’s easy to post service details here. Simply fill in the area of work, budget
+scale and have one on one deals with organisations hassle free.</p>
+        </div>
+          <div class="w-col w-col-4">
+              <img src="https://www.f-cdn.com/assets/main/en/assets/home/need-work-done/pay-safely-v3.svg" width="50px" height="50px"><p class="about-p"><b>Post for help</b></p>
+            <br>
+            <p style="font-size: 20px">Receive immediate response from stakeholder organisations after posting
+for a requirement. Be it a financial matter or issues regarding healthcare or help regarding design and raw materials, the organisations ensure
+immediate response and aid.</p>
+        </div>
+         
+    </div>
+        
+      
+    
+    
+        <center> <br> <a href="https://docs.google.com/forms/d/e/1FAIpQLScjmlR7Xm3cpWpHzFRNt-LGJ1ceh8n0QJVUVqeL7pULn1TEkQ/viewform" class="w-button button-text">Submit</a> </center>
+      
+      
+     
+          
+    <div id="contact" data-ix="move-nav-contact" class="contact-section">
+        <br> <br> <br>
+      <center> <h1>General</h1>
+        <p><b>14 New Town Road, Heritage building</b></p><br>
+        <p><b>Kolkata - 965241</b></p>
+        <br>
+        <p><b>Or email us at <a href="mailto:team@artconnect.com">team@artconnect.com</a></b></p><br><br>
+        <p style="font-size:20px">Or call us for support :</p><br>
+        <p><b>1800 232 545</b></p><br>
+        <p><b>015-27305858</b></p><br> 
+        </center><br>
+        <center><h1>Support</h1>
+            <p style="font-size:20px">For questions or help using Artconnect, contact <b><a href="mailto:help@artconnect.com">help@artconnect.com</a></b> or visit our support site
+</p><br>
+        </center>
+        <center>
+            <h1> Privacy Policy </h1>
+            <p style="font-size:20px">'Personal information' means information or an opinion about an identified individual, or an
+individual who is reasonably identifiable. Artconnect's Privacy Policy applies to personal
+information collected and/or held by Artconnect.<br>This Privacy Policy also explains how we process 'personal data' about people.<br>We will review this policy regularly, and we may update it from time to time.</p>
+        </center>
+        <center>
+        <h1>To contact our Privacy Officer</h1>
+            <p style="font-size:20px">If you have an enquiry or a complaint about the way we handle your personal information, or to
+seek to exercise your privacy rights in relation to the personal information we hold about you, you
+                may contact our Privacy Officer as follows:<br><br>By Email:<br><a href="mailto:privacy-officer@artconnect.com"><b>privacy-officer@artconnect.com</b></a><br><br>By Mail:<br>
+Attn: Privacy Officer<br>Heritage building,<br> New Town Action Area 2<br>Kolkata - 965241<br><br>
+                <img src="sm.jpeg">
+
+</p>
+        </center>
+  </div>
+    </div>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/webflow.js"></script>
+  <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+  <script>
+    // START HERO PARALLAX REGULAR
+    function parallax() { 
+    var scrolled = $(window).scrollTop(); 
+    $('.start-hero-div').css('top', -(scrolled * 0.3) + 'px'); 
+    // you can have more elements here. 
+    $('.another-element').css('top', -(scrolled * 0.1) + 'px'); } 
+    $(window).scroll(function(e){ parallax(); });
+        // END HERO PARALLAX REGULAR
+  </script>
+
+</body>
+</html>
